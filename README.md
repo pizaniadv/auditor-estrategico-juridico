@@ -1,161 +1,182 @@
+> ## ⚠️ AVISO — esta skill está incompleta (30/07/2026)
+>
+> O `SKILL.md` publicado aqui é a **versão V2**, que foi escrita como um
+> **acréscimo sobre uma "V1 universal"** — e a V1 **não está neste
+> repositório**. Sete trechos da V2 remetem a ela ("idêntico à V1 universal"),
+> de modo que os nove módulos de auditoria (A–I), os itens 6.1–6.12 do
+> Relatório Estratégico Interno e os itens 7.1–7.10 do Dossiê de Redação
+> **não constam do pacote**.
+>
+> Consequência prática: **instalada como está, a skill não roda por inteiro.**
+> O que existe aqui são a finalidade, os limites, a hierarquia de instruções,
+> os regimes de operação, o formulário de entrada e os acréscimos da V2.
+>
+> A falha vem do commit inicial, de 24/04/2026: o CHANGELOG descreve a V1,
+> mas o arquivo publicado foi a V2. A consolidação está sendo providenciada.
+>
+> Se você já instalou esta skill, verifique se o seu assistente não
+> **reconstruiu** os módulos ausentes por conta própria — nesse caso, o texto
+> desses módulos não é do autor, e a atribuição da licença CC BY 4.0 exige que
+> a modificação seja indicada.
 # Auditor Estratégico Jurídico
 
-> Skill d
-e auditoria estratégica pré-redacional para
+> Skill d 
+e auditoria estratégica pré-redacional pa ra
  advogados brasileiros.
 
-Esta skill não re
-dige peças finais. Ela audita — fatos, pro
-vas, teses, riscos e vetores estratégicos �
-� antes que qualquer argumento seja posto no 
-papel. Seu produto é duplo: um Relatório Es
-tratégico Interno, de uso exclusivo do advog
-ado, e um Dossiê de Redação contendo apena
-s material processualmente aproveitável, pro
-nto para alimentar a redação final.
+Esta skill nã o re
+dige peças finais. Ela audita — fato s, pro
+vas, teses, riscos e vetores estraté gicos �
+� antes que qualquer argumento s eja posto no 
+papel. Seu produto é duplo: u m Relatório Es
+tratégico Interno, de uso e xclusivo do advog
+ado, e um Dossiê de Reda� �ão contendo apena
+s material processualmen te aproveitável, pro
+nto para alimentar a r edação final.
 
 Foi 
-construída a partir de quatro premissas veri
+construída a partir  de quatro premissas veri
 ficáveis:
 
-1. Texto jurídico com aparênc
-ia de sofisticação e substância frágil é
- mais perigoso que texto simples e sólido.
+1. T exto jurídico com aparênc
+ia de sofistica� �ão e substância frágil é
+ mais perigoso  que texto simples e sólido.
 
-2. Invenção de jurisprudência, doutrina, d
-ispositivo ou dado empírico é inaceitável 
-em qualquer circunstância.
+2. Invençã o de jurisprudência, doutrina, d
+ispositivo  ou dado empírico é inaceitável 
+em qualq uer circunstância.
 3. A firmeza do 
-tom deve ser proporcional à solidez da tese.
+tom de ve ser proporcional à solidez da tese.
 
-4. O melhor argumento é aquele que reduz o
- custo decisório do julgador sem empobrecer 
-a fundamentação.
+4.  O melhor argumento é aquele que reduz o
+ c usto decisório do julgador sem empobrecer 
+ a fundamentação.
 
 ---
 
-## Para quem é
+## Para quem é 
 
 
-Advogados brasileiros com prática em cont
-encioso cível, tributário, administrativo, 
-empresarial, consumerista, trabalhista, const
-itucional e penal econômico. A skill cobre a
-tuação ativa, passiva e recursal, com adapt
-ações por posição processual.
+Advogados brasileiros com prática em co nt
+encioso cível, tributário, administrati vo, 
+empresarial, consumerista, trabalhista,  const
+itucional e penal econômico. A skill  cobre a
+tuação ativa, passiva e recursal,  com adapt
+ações por posição processual. 
 
 ## O que
  ela faz
 
-- Exige formulário de entrada es
-truturado antes de qualquer análise.
+- Exige formulário  de entrada es
+truturado antes de qualquer a nálise.
 - Exec
-uta auditoria silenciosa em nove módulos: cl
-assificação de elementos, matriz probatóri
-a, hierarquização argumentativa, análise i
-nstitucional do adversário, argumento conseq
-uencialista, controle jurisprudencial em trip
-la camada, calibração de confiança, consol
-idação multi-instância, riscos recursais e
- deontológicos.
+uta auditoria silenciosa em  nove módulos: cl
+assificação de elemento s, matriz probatóri
+a, hierarquização arg umentativa, análise i
+nstitucional do adver sário, argumento conseq
+uencialista, contro le jurisprudencial em trip
+la camada, calibr ação de confiança, consol
+idação multi- instância, riscos recursais e
+ deontológic os.
 - Integra protocolo antialu
-cinatório inderrogável: vedação absoluta 
-a inventar precedente, relator, data, disposi
-tivo, autor ou obra.
+cinatório  inderrogável: vedação absoluta 
+a inventa r precedente, relator, data, disposi
+tivo, a utor ou obra.
 - Observa a LGPD no tra
-tamento de dados pessoais do cliente.
+tamen to de dados pessoais do cliente.
 - Sepa
-ra rigorosamente vocabulário estratégico (c
-onfinado ao Relatório Interno) de vocabulár
+ra  rigorosamente vocabulário estratégico (c
+o nfinado ao Relatório Interno) de vocabulár 
 io redacional (Dossiê).
-- Entrega handoff n
-eutro para qualquer template de redação do 
+- Entrega handoff  n
+eutro para qualquer template de redação  do 
 escritório.
 
 ## O que ela não faz
-
+ 
 - N�
-�o substitui a decisão estratégica do advog
+�o substitui a decisão estratégi ca do advog
 ado.
 - Não garante êxito.
-- Não dispensa
- verificação humana das citações jurispru
+-  Não dispensa
+ verificação humana das cita ções jurispru
 denciais que produz.
-- Não opina sobre conv
-eniência ética da postulação do cliente.
+- Não  opina sobre conv
+eniência ética da postul ação do cliente.
 
-- Não redige peça final sem autorização 
+- Não redige peça fin al sem autorização 
 expressa.
 
 ---
 
-## Instalação
+##  Instalação
 
 A skil
-l é um conjunto de arquivos Markdown. Para u
-sá-la no Claude:
+l é um conjunto de  arquivos Markdown. Para u
+sá-la no Claude: 
 
 1. Criar um Projeto no C
 laude.ai.
-2. Adicionar o conteúdo de `SKILL
-.md` às instruções permanentes do projeto 
-(campo *Custom instructions*).
+2. Ad icionar o conteúdo de `SKILL
+.md` às instr uções permanentes do projeto 
+(campo *Cust om instructions*).
 3. Registrar,
- nas preferências do usuário, o estilo reda
-cional próprio do advogado.
+ nas prefe rências do usuário, o estilo reda
+cional p róprio do advogado.
 4. Ler a skill 
-integralmente antes do primeiro uso real.
+integr almente antes do primeiro uso real.
 
 
-## Primeiros passos
+## P rimeiros passos
 
 Ao invocar a skill pel
-a primeira vez, ela ativa automaticamente o r
-egime de primeiro uso e oferece três opçõe
-s: demonstração com caso hipotético; caso 
-real em regime completo; caso real em regime 
-abreviado. Recomenda-se a demonstração.
+a  primeira vez, ela ativa automaticamente o r
+ egime de primeiro uso e oferece três opçõe 
+s: demonstração com caso hipotético; cas o 
+real em regime completo; caso real em reg ime 
+abreviado. Recomenda-se a demonstraçã o.
 
 
 ## Skills relacionadas
 
-Esta skill embute um protocolo antialucinatório como uma de suas seções. A
-versão **aprofundada e autônoma** desse protocolo vive em repositório próprio,
-com as duas camadas de conferência, os quatro degraus de confirmação e as seis
+Esta skill em bute um protocolo antialucinatório como uma  de suas seções. A
+versão **aprofundada e a utônoma** desse protocolo vive em repositór io próprio,
+com as duas camadas de conferên cia, os quatro degraus de confirmação e as  seis
 proibições absolutas:
 
-- **[antialucinacao-juridica](https://github.com/pizaniadv/antialucinacao-juridica)**
-  — o fato contra o documento dos autos; a fonte contra a fonte primária.
+- **[antialucin acao-juridica](https://github.com/pizaniadv/a ntialucinacao-juridica)**
+  — o fato contra  o documento dos autos; a fonte contra a font e primária.
 
-Compõem a mesma família de skills para advogados:
+Compõem a mesma família de sk ills para advogados:
 
-- **[inferencia-jurisprudencial-mij](https://github.com/pizaniadv/inferencia-jurisprudencial-mij)**
-  — o precedente existe; mas ele *incide*? Cotejo formal em quatro modos.
-- **[critica-adversarial-juridica](https://github.com/pizaniadv/critica-adversarial-juridica)**
-  — ataca a própria tese antes que o adversário e o juiz o façam.
-- **[validacao-logica-forense](https://github.com/pizaniadv/validacao-logica-forense)**
-  — reconstrói o argumento em premissas e nomeia a falácia.
-- **[verificar-lendo-a-fonte](https://github.com/pizaniadv/verificar-lendo-a-fonte)**
-  — índice localiza, fonte autoriza.
-- **[revisao-que-sugere](https://github.com/pizaniadv/revisao-que-sugere)**
-  — revisão que sugere item a item e jamais reescreve o seu texto.
-- **[ritual-de-encerramento](https://github.com/pizaniadv/ritual-de-encerramento)**
-  — destila cada sessão em aprendizado de método e de substância.
-- **[handoff-de-sessao](https://github.com/pizaniadv/handoff-de-sessao)**
-  — passa o bastão para a próxima sessão sem reexplicar nada.
+- **[inferencia-jurispr udencial-mij](https://github.com/pizaniadv/in ferencia-jurisprudencial-mij)**
+  — o prece dente existe; mas ele *incide*? Cotejo formal  em quatro modos.
+- **[critica-adversarial-ju ridica](https://github.com/pizaniadv/critica- adversarial-juridica)**
+  — ataca a própri a tese antes que o adversário e o juiz o fa� �am.
+- **[validacao-logica-forense](https://g ithub.com/pizaniadv/validacao-logica-forense) **
+  — reconstrói o argumento em premissas  e nomeia a falácia.
+- **[verificar-lendo-a- fonte](https://github.com/pizaniadv/verificar -lendo-a-fonte)**
+  — índice localiza, fon te autoriza.
+- **[revisao-que-sugere](https:/ /github.com/pizaniadv/revisao-que-sugere)**
+   — revisão que sugere item a item e jamais  reescreve o seu texto.
+- **[ritual-de-encerr amento](https://github.com/pizaniadv/ritual-d e-encerramento)**
+  — destila cada sessão  em aprendizado de método e de substância.
+-  **[handoff-de-sessao](https://github.com/piz aniadv/handoff-de-sessao)**
+  — passa o bas tão para a próxima sessão sem reexplicar n ada.
 
-> Nota de licença: as skills acima estão sob AGPL-3.0 + CC BY-SA 4.0
-> (copyleft com atribuição nominal). Esta skill permanece sob CC BY 4.0.
+> Nota de licença: as skills acima est ão sob AGPL-3.0 + CC BY-SA 4.0
+> (copyleft c om atribuição nominal). Esta skill permanec e sob CC BY 4.0.
 
 ## Licença
 
-Creative Commons Attribution 4
-.0 International (CC BY 4.0). Uso livre, incl
-usive comercial, mediante atribuição ao aut
+Creative Com mons Attribution 4
+.0 International (CC BY 4 .0). Uso livre, incl
+usive comercial, median te atribuição ao aut
 or.
 
-## Limitação de responsabilidade
+## Limitação  de responsabilidade
 
 
-Esta skill é instrumento de apoio auditorial
+Esta skill é instr umento de apoio auditorial
 
+ 
