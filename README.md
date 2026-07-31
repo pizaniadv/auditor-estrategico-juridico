@@ -1,182 +1,166 @@
-> ## ⚠️ AVISO — esta skill está incompleta (30/07/2026)
->
-> O `SKILL.md` publicado aqui é a **versão V2**, que foi escrita como um
-> **acréscimo sobre uma "V1 universal"** — e a V1 **não está neste
-> repositório**. Sete trechos da V2 remetem a ela ("idêntico à V1 universal"),
-> de modo que os nove módulos de auditoria (A–I), os itens 6.1–6.12 do
-> Relatório Estratégico Interno e os itens 7.1–7.10 do Dossiê de Redação
-> **não constam do pacote**.
->
-> Consequência prática: **instalada como está, a skill não roda por inteiro.**
-> O que existe aqui são a finalidade, os limites, a hierarquia de instruções,
-> os regimes de operação, o formulário de entrada e os acréscimos da V2.
->
-> A falha vem do commit inicial, de 24/04/2026: o CHANGELOG descreve a V1,
-> mas o arquivo publicado foi a V2. A consolidação está sendo providenciada.
->
-> Se você já instalou esta skill, verifique se o seu assistente não
-> **reconstruiu** os módulos ausentes por conta própria — nesse caso, o texto
-> desses módulos não é do autor, e a atribuição da licença CC BY 4.0 exige que
-> a modificação seja indicada.
+---
+tipo: readme
+data: 2026-07-31
+produzido-por: Raphael Sousa Pizani Silva (OAB/BA 32.472)
+versao-core: 1.0
+---
+
 # Auditor Estratégico Jurídico
 
-> Skill d 
-e auditoria estratégica pré-redacional pa ra
- advogados brasileiros.
+> Skill para assistentes de IA. Audita o caso **antes** de qualquer redação —
+> fatos, provas, teses, adversário, jurisprudência e riscos — e entrega dois
+> documentos que nunca se misturam.
 
-Esta skill nã o re
-dige peças finais. Ela audita — fato s, pro
-vas, teses, riscos e vetores estraté gicos �
-� antes que qualquer argumento s eja posto no 
-papel. Seu produto é duplo: u m Relatório Es
-tratégico Interno, de uso e xclusivo do advog
-ado, e um Dossiê de Reda� �ão contendo apena
-s material processualmen te aproveitável, pro
-nto para alimentar a r edação final.
+Peça bem escrita sobre material não auditado é o pior produto da advocacia: tem
+aparência de solidez e não tem lastro. Esta skill trabalha antes disso. Ela não
+redige — prepara o terreno para que a redação aconteça sobre material
+classificado, hierarquizado e calibrado.
 
-Foi 
-construída a partir  de quatro premissas veri
-ficáveis:
+## Os dois produtos
 
-1. T exto jurídico com aparênc
-ia de sofistica� �ão e substância frágil é
- mais perigoso  que texto simples e sólido.
+| **Relatório Estratégico Interno** | **Dossiê de Redação** |
+|---|---|
+| Uso exclusivo do advogado | Insumo para a peça |
+| "a testemunha é frágil" · "esse pedido existe para negociar" · "perdemos se o juízo seguir a linha X" | Só o que é processualmente aproveitável |
+| Riscos, cenários, fraquezas, o que o cliente omitiu | Fatos com fonte, teses ordenadas, fundamentos, jurisprudência com status |
 
-2. Invençã o de jurisprudência, doutrina, d
-ispositivo  ou dado empírico é inaceitável 
-em qualq uer circunstância.
-3. A firmeza do 
-tom de ve ser proporcional à solidez da tese.
+**A estanqueidade entre os dois é a regra mais importante da skill.** O teste de
+admissão de cada parágrafo do Dossiê é: *"se este parágrafo caísse nos autos ou
+chegasse ao adversário, causaria dano à parte?"* Se sim, não entra — sem exceção
+e sem reformulação cosmética.
 
-4.  O melhor argumento é aquele que reduz o
- c usto decisório do julgador sem empobrecer 
- a fundamentação.
+O que é estratégico só passa **traduzido em instrução neutra**:
 
----
+> Interno: "a testemunha X é frágil e pode desmoronar."
+> Dossiê: "não apoiar afirmação central exclusivamente no depoimento de X;
+> ancorar nos documentos D1 e D3."
 
-## Para quem é 
+## Os nove módulos
 
+A auditoria roda em silêncio e encadeada — cada módulo consome o produto do
+anterior:
 
-Advogados brasileiros com prática em co nt
-encioso cível, tributário, administrati vo, 
-empresarial, consumerista, trabalhista,  const
-itucional e penal econômico. A skill  cobre a
-tuação ativa, passiva e recursal,  com adapt
-ações por posição processual. 
+| | Módulo | Produto que entrega |
+|---|---|---|
+| **A** | Classificação de elementos | Quadro de Classificação: cada elemento como fato provado, fato alegado, inferência, tese ou opinião — com fonte apontável |
+| **B** | Matriz probatória | fato × prova × ônus × status × providência. O vazio em fato essencial cujo ônus é nosso é o achado mais importante |
+| **C** | Hierarquização argumentativa | Esqueleto: preliminares, principal, subsidiárias — e **a lista do que saiu, com o motivo** |
+| **D** | Análise do adversário | Mapa do Adversário: contra-argumento provável e o mais perigoso, por tese |
+| **E** | Argumento consequencialista | Blocos de reforço — ou o registro de que não há nenhum útil |
+| **F** | Controle jurisprudencial | Quadro em três camadas: vinculante · persuasiva do tribunal competente · **contrária** |
+| **G** | Calibração de confiança | Cada tese etiquetada N1 a N4, com o vocabulário que aquele nível autoriza |
+| **H** | Consolidação multi-instância | O que nos vincula, o que precluiu, o alcance devolutivo do recurso |
+| **I** | Riscos | Recursais, sucumbenciais e deontológicos — destino único: o Relatório |
 
-## O que
- ela faz
+## O módulo G: firmeza proporcional à solidez
 
-- Exige formulário  de entrada es
-truturado antes de qualquer a nálise.
-- Exec
-uta auditoria silenciosa em  nove módulos: cl
-assificação de elemento s, matriz probatóri
-a, hierarquização arg umentativa, análise i
-nstitucional do adver sário, argumento conseq
-uencialista, contro le jurisprudencial em trip
-la camada, calibr ação de confiança, consol
-idação multi- instância, riscos recursais e
- deontológic os.
-- Integra protocolo antialu
-cinatório  inderrogável: vedação absoluta 
-a inventa r precedente, relator, data, disposi
-tivo, a utor ou obra.
-- Observa a LGPD no tra
-tamen to de dados pessoais do cliente.
-- Sepa
-ra  rigorosamente vocabulário estratégico (c
-o nfinado ao Relatório Interno) de vocabulár 
-io redacional (Dossiê).
-- Entrega handoff  n
-eutro para qualquer template de redação  do 
-escritório.
+A terceira premissa da skill é que **a firmeza do tom deve ser proporcional à
+solidez da tese**. O módulo G a executa com uma tabela que liga condições
+cumulativas a vocabulário permitido:
+
+- **N1 sólida** — "é", "impõe-se", "não há como afastar";
+- **N2 consistente** — "deve", "a orientação consolidada", "conclui-se". Proibido:
+  "inequívoco", "cristalino", "pacífico";
+- **N3 defensável** — "sustenta-se", "há fundamento para", "milita em favor".
+  Proibido, além do anterior: advérbios de certeza e qualquer afirmação sobre o
+  estado da jurisprudência;
+- **N4 frágil** — apenas formulação subsidiária transparente ou pedido expresso
+  de superação, apresentado como tal.
+
+Rebaixar é sempre permitido; promover exige cumprir a condição, nunca o argumento
+de necessidade ("precisamos soar firmes"). E quando o advogado discorda da
+etiqueta — vai discordar, porque conhece o caso melhor —, a palavra final é dele:
+a skill reetiqueta, registra a original e a razão, e não insiste.
+
+## A terceira camada do módulo F
+
+A camada mais importante é a que quase ninguém pesquisa: **a jurisprudência
+contrária**. Encontrá-la antes do adversário é a diferença entre enfrentá-la nos
+seus termos e ser surpreendido nos dele.
+
+Se ela não foi pesquisada, a skill não finge que inexiste: registra a pendência,
+**trava a calibração daquela tese no teto N3** por mais forte que pareça, entrega
+o roteiro de busca, e proíbe no Dossiê qualquer afirmação sobre o estado da
+jurisprudência. *Ausência de pesquisa nunca vira ausência de precedente
+contrário.*
+
+## Quando a informação não existe
+
+É o estado normal do caso real, não a exceção. Nenhum módulo trava por falta de
+dado: todos registram a lacuna com três atributos — o que falta, o que a falta
+impede de concluir, qual providência a supre — e **rebaixam** qualquer conclusão
+que dependia do dado ausente. Nunca se calibra pelo cenário otimista do que não
+se sabe.
+
+## Regimes
+
+**Completo** (padrão, os nove módulos) · **Abreviado** (A, B, F e G, com a lista
+expressa do que não foi auditado) · **Primeiro uso** (explica, entrega o
+formulário e para) · **Não acionamento** (material que não é caso contencioso —
+devolve o comando em uma frase).
+
+## Escopo
+
+Cobre contencioso cível, tributário, administrativo, empresarial, consumerista,
+trabalhista, constitucional e penal econômico, com adaptações por matéria e por
+posição processual (ativa, passiva, recursal).
+
+Não cobre penal comum, família e sucessões, eleitoral e previdenciário
+individual — nessas, avisa expressamente, roda em regime reduzido e marca os
+produtos.
+
+## Instalação
+
+```bash
+git clone https://github.com/pizaniadv/auditor-estrategico-juridico.git \
+  ~/.claude/skills/auditor-estrategico-juridico
+```
+
+Skills seguem o padrão aberto [Agent Skills](https://agentskills.io) — o
+`SKILL.md` funciona em outras ferramentas compatíveis. A skill é autossuficiente:
+não depende de outro arquivo, base de dados ou ferramenta.
+
+## Como usar
+
+`/auditor-estrategico-juridico`, ou: "audite este caso" · "antes de redigir,
+audite" · "relatório estratégico" · "avalie as teses antes da peça".
 
 ## O que ela não faz
- 
-- N�
-�o substitui a decisão estratégi ca do advog
-ado.
-- Não garante êxito.
--  Não dispensa
- verificação humana das cita ções jurispru
-denciais que produz.
-- Não  opina sobre conv
-eniência ética da postul ação do cliente.
 
-- Não redige peça fin al sem autorização 
-expressa.
+Não promete êxito, não estima "chance de vitória" em número, não decide pelo
+advogado e não substitui o exame direto dos autos. Não cita julgado de memória —
+descreve a orientação em tese e entrega o roteiro de busca. E não redige sem
+comando expresso; quando redige, a única fonte é o Dossiê.
 
----
+## Família
 
-##  Instalação
-
-A skil
-l é um conjunto de  arquivos Markdown. Para u
-sá-la no Claude: 
-
-1. Criar um Projeto no C
-laude.ai.
-2. Ad icionar o conteúdo de `SKILL
-.md` às instr uções permanentes do projeto 
-(campo *Cust om instructions*).
-3. Registrar,
- nas prefe rências do usuário, o estilo reda
-cional p róprio do advogado.
-4. Ler a skill 
-integr almente antes do primeiro uso real.
-
-
-## P rimeiros passos
-
-Ao invocar a skill pel
-a  primeira vez, ela ativa automaticamente o r
- egime de primeiro uso e oferece três opçõe 
-s: demonstração com caso hipotético; cas o 
-real em regime completo; caso real em reg ime 
-abreviado. Recomenda-se a demonstraçã o.
-
-
-## Skills relacionadas
-
-Esta skill em bute um protocolo antialucinatório como uma  de suas seções. A
-versão **aprofundada e a utônoma** desse protocolo vive em repositór io próprio,
-com as duas camadas de conferên cia, os quatro degraus de confirmação e as  seis
-proibições absolutas:
-
-- **[antialucin acao-juridica](https://github.com/pizaniadv/a ntialucinacao-juridica)**
-  — o fato contra  o documento dos autos; a fonte contra a font e primária.
-
-Compõem a mesma família de sk ills para advogados:
-
-- **[inferencia-jurispr udencial-mij](https://github.com/pizaniadv/in ferencia-jurisprudencial-mij)**
-  — o prece dente existe; mas ele *incide*? Cotejo formal  em quatro modos.
-- **[critica-adversarial-ju ridica](https://github.com/pizaniadv/critica- adversarial-juridica)**
-  — ataca a própri a tese antes que o adversário e o juiz o fa� �am.
-- **[validacao-logica-forense](https://g ithub.com/pizaniadv/validacao-logica-forense) **
-  — reconstrói o argumento em premissas  e nomeia a falácia.
-- **[verificar-lendo-a- fonte](https://github.com/pizaniadv/verificar -lendo-a-fonte)**
-  — índice localiza, fon te autoriza.
-- **[revisao-que-sugere](https:/ /github.com/pizaniadv/revisao-que-sugere)**
-   — revisão que sugere item a item e jamais  reescreve o seu texto.
-- **[ritual-de-encerr amento](https://github.com/pizaniadv/ritual-d e-encerramento)**
-  — destila cada sessão  em aprendizado de método e de substância.
--  **[handoff-de-sessao](https://github.com/piz aniadv/handoff-de-sessao)**
-  — passa o bas tão para a próxima sessão sem reexplicar n ada.
-
-> Nota de licença: as skills acima est ão sob AGPL-3.0 + CC BY-SA 4.0
-> (copyleft c om atribuição nominal). Esta skill permanec e sob CC BY 4.0.
+Complementos opcionais — esta skill executa sozinha:
+[`antialucinacao-juridica`](https://github.com/pizaniadv/antialucinacao-juridica) ·
+[`inferencia-jurisprudencial-mij`](https://github.com/pizaniadv/inferencia-jurisprudencial-mij) ·
+[`critica-adversarial-juridica`](https://github.com/pizaniadv/critica-adversarial-juridica) ·
+[`validacao-logica-forense`](https://github.com/pizaniadv/validacao-logica-forense) ·
+[`verificar-lendo-a-fonte`](https://github.com/pizaniadv/verificar-lendo-a-fonte) ·
+[`revisao-que-sugere`](https://github.com/pizaniadv/revisao-que-sugere) ·
+[`ritual-de-encerramento`](https://github.com/pizaniadv/ritual-de-encerramento) ·
+[`handoff-de-sessao`](https://github.com/pizaniadv/handoff-de-sessao).
 
 ## Licença
 
-Creative Com mons Attribution 4
-.0 International (CC BY 4 .0). Uso livre, incl
-usive comercial, median te atribuição ao aut
-or.
+A partir da versão 2.0.0, licenciamento duplo, ambos copyleft, ambos com
+**atribuição nominal obrigatória**: **[AGPL-3.0](LICENSE)** para o componente
+executável e **[CC BY-SA 4.0](LICENSE-DOCS)** para a obra textual.
 
-## Limitação  de responsabilidade
+Uso no seu escritório não gera obrigação nenhuma. **Distribuir** versão
+modificada, ou **oferecê-la a terceiros como serviço**, exige abrir o código e
+manter a atribuição. O [NOTICE](NOTICE) é parte da licença.
 
+A versão 1.0.0, publicada em abril de 2026, foi distribuída sob CC BY 4.0 e
+permanece disponível sob aquela licença no histórico do repositório — licença
+concedida não se revoga.
 
-Esta skill é instr umento de apoio auditorial
+## Autor
 
- 
+**Raphael Sousa Pizani Silva** — OAB/BA 32.472
+[github.com/pizaniadv](https://github.com/pizaniadv)
+
+Histórico de versões no [CHANGELOG](CHANGELOG.md).

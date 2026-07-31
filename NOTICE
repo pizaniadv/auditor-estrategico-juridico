@@ -1,0 +1,95 @@
+NOTICE — Atribuição obrigatória
+===============================
+
+Auditor Estratégico Jurídico
+Skill para assistentes de IA (Claude Code e compatíveis)
+
+Copyright (C) 2026 Raphael Sousa Pizani Silva — OAB/BA 32.472
+https://github.com/pizaniadv/auditor-estrategico-juridico
+
+
+1. LICENCIAMENTO DUPLO
+----------------------
+
+Este trabalho é licenciado sob DOIS instrumentos, conforme a natureza do
+material:
+
+(a) GNU AFFERO GENERAL PUBLIC LICENSE, versão 3 (arquivo LICENSE)
+    Aplica-se ao material enquanto componente executável — a skill como
+    instrução operacional carregada e executada por um sistema de software.
+
+(b) CREATIVE COMMONS ATRIBUIÇÃO-COMPARTILHAIGUAL 4.0 INTERNACIONAL
+    (arquivo LICENSE-DOCS)
+    Aplica-se ao material enquanto obra textual — a prosa, os catálogos, os
+    formatos e a documentação.
+
+Quem recebe este trabalho pode invocar qualquer um dos dois instrumentos,
+conforme o uso pretendido. Ambos são copyleft: nenhum deles autoriza
+redistribuição sob licença fechada.
+
+
+2. TERMO ADICIONAL DE ATRIBUIÇÃO
+   (AGPL-3.0, seção 7, alínea "b"; CC BY-SA 4.0, seção 3.a)
+---------------------------------------------------------
+
+Nos termos expressamente autorizados pela seção 7(b) da AGPL-3.0 e pela
+seção 3(a) da CC BY-SA 4.0, o autor exige a PRESERVAÇÃO DA ATRIBUIÇÃO
+NOMINAL em toda cópia, versão modificada e obra derivada.
+
+VOCÊ DEVE:
+
+  a) preservar este arquivo NOTICE, íntegro, em toda cópia e derivação;
+
+  b) manter visível ao usuário final, na documentação e em qualquer
+     interface que apresente o trabalho, a seguinte indicação:
+
+         "Baseado em 'Auditor Estratégico Jurídico',
+          de Raphael Pizani (OAB/BA 32.472) —
+          github.com/pizaniadv/auditor-estrategico-juridico"
+
+  c) indicar de forma clara se você modificou o trabalho, e em quê;
+
+  d) licenciar suas modificações sob os MESMOS instrumentos (AGPL-3.0 e
+     CC BY-SA 4.0);
+
+  e) se você incorporar este trabalho a um sistema e oferecê-lo a terceiros
+     — inclusive REMOTAMENTE, como serviço acessado por rede —, disponibilizar
+     a esses usuários o código-fonte completo correspondente da sua versão,
+     sob AGPL-3.0. Esta é a cláusula central da AGPL, e é deliberada: o autor
+     não autoriza que este trabalho seja fechado dentro de um produto de
+     terceiros.
+
+VOCÊ NÃO PODE:
+
+  - remover, obscurecer ou tornar ilegível a atribuição ao autor;
+  - redistribuir este trabalho, ou derivação dele, sob licença proprietária
+    ou sob termos que restrinjam os direitos aqui concedidos;
+  - usar o nome do autor, sua inscrição na OAB ou o nome de seu escritório
+    para endossar ou promover produto derivado, sem autorização escrita e
+    específica.
+
+
+3. ALCANCE REAL DAS OBRIGAÇÕES (nota honesta ao leitor)
+-------------------------------------------------------
+
+Uso pessoal e privado não gera nenhuma obrigação de abrir código. As
+obrigações das seções acima nascem quando você DISTRIBUI o trabalho, ou
+quando o OFERECE A TERCEIROS como serviço. Advogado que baixa esta skill e
+a usa no próprio escritório não deve nada a ninguém — e é bem-vindo.
+
+
+4. AUSÊNCIA DE GARANTIA E LIMITE DE RESPONSABILIDADE
+----------------------------------------------------
+
+Este trabalho é fornecido "COMO ESTÁ", sem garantia de qualquer natureza,
+conforme as seções 15 e 16 da AGPL-3.0 e a seção 5 da CC BY-SA 4.0.
+
+Esta skill é INSTRUMENTO DE APOIO ao trabalho de profissional habilitado.
+Não presta consultoria jurídica, não substitui o exame dos autos, não
+substitui a conferência das fontes em suas origens oficiais e não substitui
+o juízo do advogado, a quem cabem, com exclusividade, a decisão técnica, a
+assinatura da peça e a responsabilidade profissional correspondente
+(Lei 8.906/1994; Código de Ética e Disciplina da OAB).
+
+O autor não responde por decisão tomada, peça protocolada ou prazo perdido
+com apoio deste material.
